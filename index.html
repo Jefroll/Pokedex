@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicons/favicon-16x16.png"> <!-- link que traz o icone que aparece na aba do navegador-->
+    <link rel="stylesheet" href="./css/style.css"> <!--link que conecta o documento html com o css-->
+    
+    <title>Pokedex</title>
+
+
+</head>
+
+<body>
+    
+    <Main>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/417.gif" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span>
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+            <input
+              type="search"
+              class="input__search"
+              placeholder="Name or number"
+              required
+              />
+        </form>
+
+        <div class="buttons">
+            <button class="button bnt-prev"> Prev &lt;</button>
+            <button class="button btn-next"> Next &gt;</button>
+        </div>
+
+        <img src="./images/pokedex.png" alt="pokedex" class="pokedex"> <!-- colocando a imagem da pokedex e defiindo a class pra trabalhar no css-->
+
+
+    </Main>
+
+
+</body>
+</html>
